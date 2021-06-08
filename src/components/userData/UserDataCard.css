@@ -1,0 +1,39 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 280px;
+  margin: 2%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userAvatar {
+  display: flex;
+  justify-content: center;
+}
+
+.imgAvatar {
+  width: 50%;
+  margin-top: 2%;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 280px;
+    margin: 2%;
+  }
+}

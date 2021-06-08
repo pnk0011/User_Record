@@ -1,0 +1,4 @@
+.dataCardWrapperclass {
+  display: flex;
+  flex-wrap: wrap;
+}
